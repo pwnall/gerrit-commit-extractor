@@ -1,0 +1,29 @@
+{
+  "name": "gerrit-commit-extractor",
+  "version": "1.0.0",
+  "description": "A Node.js application to extract merged Gerrit CL commit messages.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "keywords": [
+    "gerrit",
+    "api",
+    "commit-messages",
+    "typescript",
+    "node.js"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x.x",
+    "@types/node-fetch": "^2.6.x",
+    "typescript": "^5.x.x"
+  }
+}
